@@ -9,6 +9,3 @@ RUN mkdir -p /firebird/data
 
 # Expone el puerto estándar de Firebird
 EXPOSE 3050
-
-# Comando de inicio (ya definido en la imagen base
-CMD ["/usr/local/firebird/run.sh"]
